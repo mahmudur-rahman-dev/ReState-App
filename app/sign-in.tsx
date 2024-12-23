@@ -18,7 +18,7 @@ const SignIn = () => {
           resizeMode="contain"
         />
         <View className="px-10">
-          <Text className="text-base text-center uppercasse font-rubik text-black-200">
+          <Text className="text-center uppercasse font-rubik text-black-200 mt-5 text-xl">
             Welcome to ReState
           </Text>
 
@@ -33,7 +33,7 @@ const SignIn = () => {
 
           <TouchableOpacity
             onPress={handleLogin}
-            className="bg-white shadow-md shadow-zinc-300 rounded-full w-full py-4 mt-5"
+            className="bg-primary-200 shadow-md shadow-zinc-300 rounded-full w-full py-4 mt-5"
           >
             <View className="flex flex-row items-center justify-center">
               <Image

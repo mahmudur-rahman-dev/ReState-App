@@ -32,6 +32,20 @@ module.exports = {
       danger: {
         DEFAULT: "#F75555",
       },
+      white: {
+        DEFAULT: "#FFFFFF",
+        100: "#F7F7F7",
+        200: "#F0F0F0",
+        300: "#E5E5E5",
+      },
+      gray: {
+        DEFAULT: "#8C8E98",
+        100: "#F7F7F7",
+        200: "#F0F0F0",
+        300: "#E5E5E5",
+        400: "#666876",
+        500: "#191D31",
+      },
     }
   },
   plugins: [],
